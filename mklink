@@ -12,3 +12,7 @@ start D:\OneDrive\Codes\AutoHotKey\test\"Keyboard input method.ahk"
 start D:\ProgramFiles\Tools\ClCL\CLCL.exe
 start D:\ProgramFiles\Tools\MouseInc_2.13.4_Green\MouseInc.exe
 start D:\ProgramFiles\Tools\TrafficMonitor_V1.84.1_x64\TrafficMonitor\TrafficMonitor.exe
+
+# Android Studio
+mklink /D "C:\Users\Administrator\.gradle" "D:\mklink\Android\.gradle"
+mklink /D "C:\Users\Administrator\.android" "D:\mklink\Android\.android"

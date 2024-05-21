@@ -1,0 +1,6 @@
+edge 同步
+MouseInc 鼠标增强
+CLCL 剪切板增强
+TrafficMonitor 网速显示
+vscode 登录
+FxSound 音量增强

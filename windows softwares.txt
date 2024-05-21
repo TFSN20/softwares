@@ -1,4 +1,6 @@
 edge 同步
+onedrive 同步文件
+office word excel powerpoint
 MouseInc 鼠标增强
 CLCL 剪切板增强
 TrafficMonitor 网速显示

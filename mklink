@@ -16,3 +16,6 @@ start D:\ProgramFiles\Tools\TrafficMonitor_V1.84.1_x64\TrafficMonitor\TrafficMon
 # Android Studio
 mklink /D "C:\Users\Administrator\.gradle" "D:\mklink\Android\.gradle"
 mklink /D "C:\Users\Administrator\.android" "D:\mklink\Android\.android"
+
+#vscode
+mklink /D "C:\Users\Administrator\.vscode" "D:\mklink\.vscode"

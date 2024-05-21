@@ -4,3 +4,4 @@ CLCL 剪切板增强
 TrafficMonitor 网速显示
 vscode 登录
 FxSound 音量增强
+Total Commander 文件资源管理器增强

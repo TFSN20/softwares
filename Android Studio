@@ -3,3 +3,4 @@
 AS中gradle版本下载很慢，可以直接把外部下载好的zip放到一连串数字字母符号文件夹下，并解压（也就是说其实zip和解压文件都要有）
 参考：https://blog.csdn.net/u011046452/article/details/107529346
 下载完gradle还会下载maven，可以使用本地代理，设置127.0.0.1，v2ray中端口（分为走http和socks端口不一样）是10809，输入网址（https和http不一样）检查是否走了v2ray。
+参考：https://blog.csdn.net/qq_65732918/article/details/134903527

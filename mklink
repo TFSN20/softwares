@@ -1,0 +1,4 @@
+# CLCL
+mklink /D "C:\Users\Administrator\AppData\Local\CLCL" "D:\OneDrive\Backup\CLCL"
+# mouseinc
+mklink "D:\ProgramFiles\Tools\MouseInc_2.13.4_Green\MouseInc.json" "D:\OneDrive\Backup\MouseInc\MouseInc.json"

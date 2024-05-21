@@ -8,3 +8,4 @@ vscode 登录
 FxSound 音量增强
 Total Commander 文件资源管理器增强
 mpv.net 本地或m3u8视频播放
+python解释器 自定义安装，管理员权限，禁用最大长度路径限制

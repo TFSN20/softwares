@@ -2,3 +2,13 @@
 mklink /D "C:\Users\Administrator\AppData\Local\CLCL" "D:\OneDrive\Backup\CLCL"
 # mouseinc
 mklink "D:\ProgramFiles\Tools\MouseInc_2.13.4_Green\MouseInc.json" "D:\OneDrive\Backup\MouseInc\MouseInc.json"
+
+bat
+rem 回显
+start D:\ProgramFiles\Tools\zzuli\zzuliVer5.2.0.exe
+timeout /nobreak /t 5
+start "C:\Program Files\FxSound LLC\FxSound\FxSound.exe"
+start D:\OneDrive\Codes\AutoHotKey\test\"Keyboard input method.ahk"
+start D:\ProgramFiles\Tools\ClCL\CLCL.exe
+start D:\ProgramFiles\Tools\MouseInc_2.13.4_Green\MouseInc.exe
+start D:\ProgramFiles\Tools\TrafficMonitor_V1.84.1_x64\TrafficMonitor\TrafficMonitor.exe

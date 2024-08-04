@@ -24,3 +24,4 @@
 # 问题
 - migisk非26版本以下不能使用magic_overlayfs模块，会导致root失效，只能刷机。
 - 需要在KernelSU对应用赋予root权限，而不是让应用申请，比如shell（就是adb）
+- KernelSU解锁system分区https://kernelsu.com/system-rw（至少先安装一个模块，否则没用）

@@ -12,15 +12,23 @@
   ```
   openssl x509 -inform DER -text -in "d:\Downloads\FiddlerRoot.cer" > hash值.0
   ```
+- 赋予最高权限
+  ```
+  chmod 644 /system/etc/security/cacerts/269953fb.0
+  ```
 # root
 - bypass解锁bl
 - 下载当前系统的线刷包（如果没有则选择先刷机，即先下载mifash，不是mifash_unloack，进行刷机）
-- 下载migisk对boot.img（也有可能是init_boot.img或recovery.img）进行安装修补
+- 下载migisk（或者KernelSU）对boot.img（也有可能是init_boot.img或recovery.img）进行安装修补
 - ```
   adb reboot fastboot
   fastboot flash init_boot magisk_patched-27000_3gjhq.img （不同img类型命令不一样boot，recovery）
   fastboot reboot
   ```
+- KernelSU：
+  - 下载：https://github.com/tiann/KernelSU/releases
+  - 下载模块：https://www.magiskmodule.com/
+  - 在/data/adb/modules/目录下创建.rw文件夹，在.rw文件夹下创建system文件夹，在system文件夹下创建upperdir和workdir文件夹
 # 问题
 - migisk非26版本以下不能使用magic_overlayfs模块，会导致root失效，只能刷机。
 - 需要在KernelSU对应用赋予root权限，而不是让应用申请，比如shell（就是adb）

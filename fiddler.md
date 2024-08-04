@@ -21,3 +21,5 @@
   fastboot flash init_boot magisk_patched-27000_3gjhq.img （不同img类型命令不一样boot，recovery）
   fastboot reboot
   ```
+# 问题
+- migisk非26版本以下不能使用magic_overlayfs模块，会导致root失效，只能刷机。

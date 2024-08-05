@@ -13,6 +13,10 @@
   ```
   openssl x509 -inform DER -text -in "d:\Downloads\FiddlerRoot.cer" > hash值.0
   ```
+- 查看pem完整内容，用于确认是否安装成功
+  ``
+  openssl x509 -in 93fbd6c7.0 -inform pem -noout -text
+  ```
 - 赋予最高权限
   ```
   chmod 644 /system/etc/security/cacerts/269953fb.0

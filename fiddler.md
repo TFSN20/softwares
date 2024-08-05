@@ -21,7 +21,7 @@
 - 
 
 
-# bl，刷机，root
+# bl，刷机，root，系统分区，系统证书
 - bypass解锁bl
 - 下载线刷包（一般选择国行版），保存到D盘根目录（防止目录过长）：https://miuiver.com/
 - 手机退出小米账号，进入fastboot模式
@@ -37,7 +37,8 @@
   fastboot reboot
   ```
 - 安装插件重启
-- 解锁系统分区：在/data/adb/modules/目录下创建.rw文件夹，在.rw文件夹下创建system文件夹，在system文件夹下创建upperdir和workdir文件夹
+- 解锁系统分区：在/data/adb/modules/目录下创建.rw文件夹，在.rw文件夹下创建system文件夹，在system文件夹下创建upperdir和workdir文件夹，重启
+- 在KernelSu里对mt管理器，shell赋予root。
 
 # 问题
 - migisk非26版本以下不能使用magic_overlayfs模块，会导致root失效，只能刷机。

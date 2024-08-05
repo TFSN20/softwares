@@ -17,10 +17,6 @@
   chmod 644 /system/etc/security/cacerts/269953fb.0
   ```
 
-- 下载当前系统的线刷包（如果没有则选择先刷机，即先下载mifash，不是mifash_unloack，进行刷机）
-- 
-
-
 # bl，刷机，root，系统分区，系统证书
 - bypass解锁bl
 - 下载线刷包（一般选择国行版），保存到D盘根目录（防止目录过长）：https://miuiver.com/

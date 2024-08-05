@@ -7,6 +7,7 @@
 - 计算hash值
   ```
   openssl x509 -inform DER -subject_hash_old -in 证书文件.cer
+  openssl x509 -subject_hash_old -in certificate.pem
   ```
 - 导处到bin目录下
   ```

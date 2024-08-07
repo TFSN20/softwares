@@ -40,6 +40,8 @@
 - 安装插件重启
 - 解锁系统分区：在/data/adb/modules/目录下创建.rw文件夹，在.rw文件夹下创建system文件夹，在system文件夹下创建upperdir和workdir文件夹，重启
 - 在KernelSu里对mt管理器，shell赋予root。
+# root和其他检测闪退
+- 下载：zygisk -LSPosed，Zygisk Next， Shamiko模块
 
 # 问题
 - migisk非26版本以下不能使用magic_overlayfs模块，会导致root失效，只能刷机。

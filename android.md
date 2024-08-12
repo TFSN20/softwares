@@ -25,3 +25,20 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
   ```
   你的d2j-dex2jar.bat位置 你的classes.dex位置(多个需要分别进行)
   ```
+  借助c大批处理：https://bbs.tampermonkey.net.cn/thread-3560-1-1.html
+  ```
+  rem 这里填d2j-dex2jar路径
+  set DEX2JAR="D:\Android\Tools\dex-tools-v2.4\d2j-dex2jar.bat"
+  rem 这里填WinRAR路径
+  set WINRAR="C:\Program Files\WinRAR\WinRAR.exe"
+
+  for /r %%i in (*.dex) do call %DEX2JAR% "%%i"
+  if exist package rd /s /q package
+  if exist package.jar del /q package.jar
+  md package
+  for /r %%i in (*.jar) do %WINRAR% x -o+ "%%i" package
+  %WINRAR% a -afzip -df -ep1 -r -m0 package.jar package\
+  rd /s /q package
+  ```
+  在dex所在目录创建此bat运行即可。
+  

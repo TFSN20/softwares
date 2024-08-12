@@ -1,3 +1,4 @@
+# Android Studio
 如果之前安装过，则十分建议删除用户名目录下的.android和.gradle文件夹，AS的安装目录，Sdk所在的目录，以及项目目录（很重要）。
 
 安装会在用户名目录下创建.android和.gradle文件夹，其中.gradle\wrapper\dists下存放各种版本的gradle，对应gradle-x.x-bin目录，
@@ -10,3 +11,10 @@ AS中gradle版本下载很慢，可以直接把外部下载好的zip放到一连
 。
 USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下载Google USB Driver——Android版本要和手机Android版本一致——手机打开开发者调试和安装。
 参考：https://www.cnblogs.com/rainbow70626/p/14364552.html，https://cloud.tencent.com/developer/article/1743279
+
+# android 玩机
+## 抓包
+- blackBox64+justTrustme模块：对未root机ssl校验好使，前提app是64位，androdi版本也不要太高。
+- libChecker：能够查看app位数，原生库（比如opencv，极光认证SDK，百度LBS，U-App SDK），服务（极光推送，OPPO Push，MiPush），活动，权限，Dex（好用）。
+- VitrualXposed app：不支持高版本android，优点是0.18.0（io.va.exposed）支持32位，可以和0.20.3（io.va.exposed64）版本共存。
+- 低版本app：存在未加固，未对证书校验的情况，易于逆向分析。

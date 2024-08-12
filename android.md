@@ -41,4 +41,7 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
   rd /s /q package
   ```
   在dex所在目录创建此bat运行即可。
+- jadx-gui：有时新版本jd-gui某些函数解析不出来，且jadx对apk也生效，非常方便。
+  ```
+  java -jar '你的jadx-1.5.0-all.jar位置'
   

@@ -18,3 +18,6 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
 - libChecker：能够查看app位数，原生库（比如opencv，极光认证SDK，百度LBS，U-App SDK），服务（极光推送，OPPO Push，MiPush），活动，权限，Dex（好用）。
 - VitrualXposed app：不支持高版本android，优点是0.18.0（io.va.exposed）支持32位，可以和0.20.3（io.va.exposed64）版本共存。
 - 低版本app：存在未加固，未对证书校验的情况，易于逆向分析。
+# 电脑端
+- jd-gui：使用前提有java环境。java -jar '你的jd-gui-1.6.6.jar位置'
+- java环境：bing搜索java jdk，下载window版，设置系统变量：https://blog.csdn.net/qq_38436214/article/details/105071088

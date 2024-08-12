@@ -21,3 +21,7 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
 # 电脑端
 - jd-gui：使用前提有java环境。java -jar '你的jd-gui-1.6.6.jar位置'
 - java环境：bing搜索java jdk，下载window版，设置系统变量：https://blog.csdn.net/qq_38436214/article/details/105071088
+- dex2jar：dex装jar，apk解压得到若干dex，下载dex2jar.zip，
+  ```
+  你的d2j-dex2jar.bat位置 你的classes.dex位置(多个需要分别进行)
+  ```

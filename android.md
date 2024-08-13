@@ -47,4 +47,7 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
 - jadx-gui：有时新版本jd-gui某些函数解析不出来，且jadx对apk也生效，非常方便，另外可以右键某个函数进行frida，xposed hook函数赋值。
   ```
   java -jar '你的jadx-1.5.0-all.jar位置'
-  
+- blackDex：有32位和64位，选择zip源码自行编译。运行gradlew.bat即可。
+  - 会先下载gradle指定版本在C:\Users\Administrator\.gradle。
+  - 错误Could not receive a message from the daemon：关闭热点
+  - Could not compile settings file 'D:\......\settings.gradle'.：java版本太高，v3.2.0版本使用jre-1.8

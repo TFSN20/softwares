@@ -19,7 +19,10 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
 - VitrualXposed app：不支持高版本android，优点是0.18.0（io.va.exposed）支持32位，可以和0.20.3（io.va.exposed64）版本共存。
 - 低版本app：存在未加固，未对证书校验的情况，易于逆向分析。
 # 电脑端
-- jd-gui：使用前提有java环境。java -jar '你的jd-gui-1.6.6.jar位置'
+- jd-gui：使用前提有java环境。不同版本查看效果不一样，建议多试试，如低版本1.4.0（需要jre1.7.0的环境，对应jdk7，7以上安装时没有了jre文件夹，8以下安装时会让选择jre安装位置，直接选择jdk安装位置下面的jre就行，选其他地方会多余（和jdk安装目录下的jre文件夹重复））
+  ```
+  java -jar '你的jd-gui-1.6.6.jar位置'
+  ```
 - java环境：bing搜索java jdk，下载window版，设置系统变量：https://blog.csdn.net/qq_38436214/article/details/105071088
 - dex2jar：dex装jar，apk解压得到若干dex，下载dex2jar.zip，
   ```

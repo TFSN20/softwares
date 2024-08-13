@@ -51,3 +51,11 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
   - 会先下载gradle指定版本在C:\Users\Administrator\.gradle。
   - 错误Could not receive a message from the daemon：关闭热点
   - Could not compile settings file 'D:\......\settings.gradle'.：java版本太高，v3.2.0版本使用jre-1.8
+- java：
+  - jdk需要和jre版本对齐，jdk7，jdk8安装时会向注册表写入东西，但是系统变量优先级更高，不用管注册表，一般只改JAVA_HOME变量即可。
+    ```
+    where java（查看java位置，由于path中存在%SystemRoot%\system32，而jdk7会在这里留下java.ex，javaw.exe，javaws.exe，删除这三个文件，因为重复了，在%JAVA_HOME%\bin下就有，有影响。jdk会在path中写入C盘符java.exe，也会有影响，删除这个变量。）
+    ```
+    ```
+    java -version（查看jdk，jre版本）
+    ```

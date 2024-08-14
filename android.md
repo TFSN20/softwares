@@ -52,10 +52,11 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
   - 错误Could not receive a message from the daemon：关闭热点
   - Could not compile settings file 'D:\......\settings.gradle'.：java版本太高，v3.2.0版本使用jre-1.8
   - android sdk：设置用户变量ANDROID_SDK_ROOT为D:\ProgramFiles\Codes\Android\Sdk，之前安装过android studio会简单点。需要ndk21.4.7075529，由于是谷歌源，所以bat下载会失败，去as设置搜索sdk进行下载，需要android sdk platforms 30版本，这个bat就行。
+
+  - 构建项目：
     ```
     gradle build (项目根目录)或
     gradlew.bat build
-    
     ```
 - java：
   - jdk需要和jre版本对齐，jdk7，jdk8安装时会向注册表写入东西，但是系统变量优先级更高，不用管注册表，一般只改JAVA_HOME变量即可。

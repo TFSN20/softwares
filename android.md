@@ -66,3 +66,6 @@ USB真机调试：设置——搜索Sdk——SDK Tools——勾选并点击下�
     ```
     java -version（查看jdk，jre版本）
     ```
+# 手机必装的app
+- aurora store 第三方谷歌商店
+- Droid-ify 开源app下载

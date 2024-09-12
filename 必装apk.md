@@ -1,0 +1,2 @@
+- m浏览器（主要是搜索功能好用）配合导出到本地的设置。
+- 百度网盘10.0.183版本，可更改文件后缀为iso预览缓存到本地，目录为Android/data/com.baidu.netdisk/cache/preview/

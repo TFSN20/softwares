@@ -5,3 +5,27 @@
 ## 公司电脑
 - 关闭最近使用的文件，常用的文件夹，设置里关闭搜索建议和云搜索
 
+## 系统紧张更新
+- 家庭版启用策略
+  ```
+  @echo off
+  pushd "%~dp0"
+  dir /b %systemroot%\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum >gp.txt
+  dir /b %systemroot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum >>gp.txt
+  for /f %%i in ('findstr /i . gp.txt 2^>nul') do dism /online /norestart /add-package:"%systemroot%\servicing\Packages\%%i"
+  pause
+  ```
+- win+r
+  ```
+  gpedit.msc
+  ```
+- 依次进入
+  ```
+  计算机配置
+  → 管理模板
+  → Windows 组件
+  → Windows 更新
+  → 管理最终用户体验
+  ```
+  配置自动更新改为禁用
+
